@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        font-size: 28px;
+        @apply font-titleFont;
+        @apply text-titleBlue;
+    }
+
+    h2 {
+        font-size: 26px;
+        @apply font-titleFont;
+    }
+
+    h3 {
+        font-size: 24px;
+        @apply font-titleFont;
+    }
+
+    h4 {
+        font-size: 22px;
+        @apply font-titleFont;
+    }
+
+    h5 {
+        font-size: 20px;
+        @apply font-titleFont;
+    }
+
+    h6 {
+        font-size: 18px;
+        @apply font-titleFont;
+    }
+
+    body {
+        @apply font-bodyFont;
+        font-size: 14px;
+        @apply text-textBlue
+    }
+}
